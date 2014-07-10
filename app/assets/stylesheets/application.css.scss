@@ -21,6 +21,16 @@ div p {
   font-size:14px;
 }
 
+.custom-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+  color: inherit;
+}
+.custom-title > a {
+  color: inherit;
+}
+
 .div-background {
   background:image-url('semi_transparent.png');
   color:white;
