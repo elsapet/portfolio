@@ -16,11 +16,19 @@ ActiveRecord::Schema.define(version: 20140514100114) do
   create_table "projects", force: true do |t|
     t.string   "name"
     t.string   "company"
+    t.string   "date"
     t.string   "link"
     t.string   "language"
+    t.string   "image1"
+    t.string   "image1_thumb"
+    t.string   "image2"
+    t.string   "image2_thumb"
+    t.integer  "sequence"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "projects", ["sequence"], name: "index_projects_on_sequence"
 
 end

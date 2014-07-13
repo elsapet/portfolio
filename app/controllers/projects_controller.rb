@@ -5,6 +5,8 @@ class ProjectsController < ApplicationController
   end
 
   def industry_index
+
+
     @industry_projects = Project.where.not(company:'Personal')
   end
 

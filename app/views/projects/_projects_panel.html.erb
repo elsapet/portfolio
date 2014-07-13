@@ -5,7 +5,9 @@
       <div class="panel panel-default">
         <div class="panel-body">
           <h3 class="no-top-margin"><%= project.name %></h3>
+          <p><%= project.date %></p>
           <p><%= project.language %> | <%= link_to 'view source code', project.link %></p>
+          <%= image_tag('industry/wordonwire1_thumb.png') %>
           <p><%= simple_format project.description %></p>
         </div>
       </div>
