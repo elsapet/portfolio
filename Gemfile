@@ -14,6 +14,7 @@ group :doc do
 end
 
 group :development, :test do
+  gem 'thin'
   gem 'sqlite3'
 end
 
