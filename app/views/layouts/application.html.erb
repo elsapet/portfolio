@@ -12,15 +12,20 @@
   <div class="container-fluid">
     <div class="navbar-header active">
       <%= link_to 'elsapet', root_path, class:'navbar-brand' %>
+      <div class="social-mobile visible-xs">
+        <a href="http://www.github.com/elsapet"><%= image_tag'social/github.png' %></a>
+        <a href="http://www.twitter.com/_elsapet"><%= image_tag'social/twitter.png' %></a>
+        <a href="http://www.linkedin.com/ebraae"><%= image_tag'social/linkedin.png' %></a>
+      </div>
     </div>
 
-    <div class="collapse navbar-collapse">
+    <div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#about" role="tab" data-toggle="tab">about</a></li>
         <li><a href="#industry_projects" role="tab" data-toggle="tab">industry</a></li>
         <li><a href="#personal_projects" role="tab" data-toggle="tab">personal</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right social">
+      <ul class="nav navbar-nav navbar-right social hidden-xs">
         <li><a href="http://www.github.com/elsapet"><%= image_tag'social/github.png' %></a></li>
         <li><a href="http://www.twitter.com/_elsapet"><%= image_tag'social/twitter.png' %></a></li>
         <li><a href="http://www.linkedin.com/ebraae"><%= image_tag'social/linkedin.png' %></a></li>
