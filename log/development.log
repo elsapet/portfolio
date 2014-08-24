@@ -17562,3 +17562,605 @@ Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24
 
 
 Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 12:53:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:20:28 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.7ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (2.5ms)
+  Rendered home/_industry.html.erb (3.3ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (0.9ms)
+  Rendered home/_personal.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 857ms (Views: 855.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:20:29 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:20:30 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:20:30 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:20:30 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:20:30 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.5ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (1.9ms)
+  Rendered home/_industry.html.erb (2.4ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (0.5ms)
+  Rendered home/_personal.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:21:00 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.5ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (2.9ms)
+  Rendered home/_industry.html.erb (3.7ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (0.4ms)
+  Rendered home/_personal.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:22:00 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.6ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (4.9ms)
+  Rendered home/_industry.html.erb (6.1ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (0.5ms)
+  Rendered home/_personal.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:22:24 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.4ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (4.2ms)
+  Rendered home/_industry.html.erb (4.9ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (0.6ms)
+  Rendered home/_personal.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:22:42 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:22:43 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.6ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (4.3ms)
+  Rendered home/_industry.html.erb (5.7ms)
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (1.1ms)
+  Rendered home/_personal.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:22:53 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.9ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (3.7ms)
+  Rendered home/_industry.html.erb (5.3ms)
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (1.3ms)
+  Rendered home/_personal.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:23:37 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.3ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (3.0ms)
+  Rendered home/_industry.html.erb (3.6ms)
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (1.3ms)
+  Rendered home/_personal.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:24:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:29:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.1ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (1.9ms)
+  Rendered home/_industry.html.erb (3.3ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (0.4ms)
+  Rendered home/_personal.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:29:19 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:29:19 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:29:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:29:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:29:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:29:19 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:29:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.7ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (1.6ms)
+  Rendered home/_industry.html.erb (2.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (0.4ms)
+  Rendered home/_personal.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:30:46 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-24 13:31:14 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.4ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_projects_panel.html.erb (1.6ms)
+  Rendered home/_industry.html.erb (2.1ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_projects_panel.html.erb (0.4ms)
+  Rendered home/_personal.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/industry/wordonwire1_thumb.png" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
+
+
+Started GET "/assets/dandelion_bg.jpg" for 127.0.0.1 at 2014-08-24 13:31:15 +0200
