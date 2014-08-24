@@ -14,19 +14,3 @@
 //= require jquery_ujs
 //= require bootstrap.min
 //= require bootstrap
-
-$(document).ready(function ($) {
-
-  //// NAVBAR
-
-  // add active class to current page
-  var nav_id = '#'+(window.location.pathname).substring(1);
-  $(nav_id).addClass('active');
-
-  // add active class on click
-  $('.nav li').on('click',function(){
-    $('.nav li').removeClass('active');
-    $(this).addClass('active');
-  });
-
-});

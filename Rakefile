@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Cv::Application.load_tasks
+Portfolio::Application.load_tasks

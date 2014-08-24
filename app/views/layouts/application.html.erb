@@ -8,32 +8,25 @@
 </head>
 <body style="background:url('<%= image_url('dandelion_bg.jpg') %>'); background-size:100%">
 
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default" role="tablist">
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="navbar-header active">
       <%= link_to 'elsapet', root_path, class:'navbar-brand' %>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li id="about"><%= link_to 'about', about_path %></li>
-        <li id="projects"><%= link_to 'projects', projects_path %></li>
+        <li class="active"><a href="#about" role="tab" data-toggle="tab">about</a></li>
+        <li><a href="#industry_projects" role="tab" data-toggle="tab">industry</a></li>
+        <li><a href="#personal_projects" role="tab" data-toggle="tab">personal</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="http://www.twitter.com/_elsapet">Twitter</a></li>
         <li><a href="http://www.github.com/elsapet">Github</a></li>
         <li><a href="http://www.linkedin.com/ebraae">Linkedin</a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
 
 <%= yield %>
