@@ -6,10 +6,7 @@ class CreateProjects < ActiveRecord::Migration
       t.string :date
       t.string :link
       t.string :language
-      t.string :image1
-      t.string :image1_thumb
-      t.string :image2
-      t.string :image2_thumb
+      t.string :image
       t.integer :sequence
       t.text :description
 

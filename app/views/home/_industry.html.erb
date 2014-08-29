@@ -12,21 +12,59 @@
 
         <div class="panel-body">
 
-          <div class="row">
-            <div class="col-sm-12 col-xs-12">
-              <div class="panel panel-default">
-                <div class="panel-body">
-                  <p>
-                    Maecenas mollis commodo quam ac tempor. Sed bibendum, ex at viverra consequat, ipsum tortor vulputate metus, aliquet tempus odio mi in turpis. Suspendisse nec risus varius, viverra nisl dignissim, hendrerit eros. Duis non interdum nisi. Sed id velit ligula.
-                  </p>
+          <!--<div class="row">-->
+            <!--<div class="col-sm-12 col-xs-12">-->
+              <!--<div class="panel panel-default">-->
+                <!--<div class="panel-body">-->
+                  <!--<p>-->
+                    <!--Here are some projects and applications that I've worked on professionally.-->
+                  <!--</p>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+
+          <% @industry_projects.each do |project| %>
+
+            <div class="row project">
+
+              <% if project.link.present? %>
+                <%= link_to project.link do %>
+
+                  <div class="col-sm-12 col-xs-12">
+                    <div class="panel panel-default">
+                      <div class="panel-body">
+                        <h3 class="no-top-margin"><%= project.name %></h3>
+                        <h4><%= project.language %></h4>
+                        <p><em><%= project.date %></em></p>
+                        <p><%= simple_format project.description.html_safe %></p>
+                        <% if project.image.present? %><%= image_tag "industry/#{project.image}", class:'project_image' %><% end %>
+                      </div>
+                    </div>
+                  </div>
+
+                <% end %>
+              <% else %>
+
+                <div class="col-sm-12 col-xs-12">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <h3 class="no-top-margin"><%= project.name %></h3>
+                      <h4><%= project.language %></h4>
+                      <p><em><%= project.date %></em></p>
+                      <p><%= simple_format project.description.html_safe %></p>
+                      <% if project.image.present? %><%= image_tag "industry/#{project.image}", class:'project_image' %><% end %>
+                    </div>
+                  </div>
                 </div>
-              </div>
+
+              <% end %>
+
             </div>
-          </div>
 
-          <%= render 'projects_panel', group:@industry_projects %>
+          <% end %>
+
         </div>
-
       </div>
     </div>
   </div>

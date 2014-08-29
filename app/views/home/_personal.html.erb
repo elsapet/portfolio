@@ -24,7 +24,24 @@
             </div>
           </div>
 
-          <%= render 'projects_panel', group:@personal_projects %>
+          <% @personal_projects.each do |project| %>
+
+            <div class="row">
+              <div class="col-sm-12 col-xs-12">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <h3 class="no-top-margin"><%= project.name %></h3>
+                    <h4><%= project.language %></h4>
+                    <p><em><%= link_to 'View on Github', project.link %></em></p>
+                    <p><%= simple_format project.description.html_safe %></p>
+                    <% if project.image.present? %><%= image_tag "personal/#{project.image}", class:'project_image' %><% end %>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <% end %>
+
         </div>
 
       </div>
