@@ -81,8 +81,26 @@ div p {
 }
 
 .project {
+  a:visited {
+    color:black;
+  }
   a:hover {
     color:black;
     text-decoration:none;
   }
+}
+
+a h3 {
+  &:hover {
+    color:gray;
+  }
+}
+
+p a {
+  &:hover {
+    color:gray;
+    background:none;
+    text-decoration: none;
+  }
+
 }

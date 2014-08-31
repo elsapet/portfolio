@@ -17,7 +17,7 @@
               <div class="panel panel-default">
                 <div class="panel-body">
                   <p>
-                    Maecenas mollis commodo quam ac tempor. Sed bibendum, ex at viverra consequat, ipsum tortor vulputate metus, aliquet tempus odio mi in turpis. Suspendisse nec risus varius, viverra nisl dignissim, hendrerit eros. Duis non interdum nisi. Sed id velit ligula.
+                    Some of these code examples began as assignments for the various CS courses I've taken; others are pet projects and just-for-fun. The source code for these projects can be found on my <a href="http://www.github.com/elsapet">GitHub</a>.
                   </p>
                 </div>
               </div>
@@ -32,7 +32,7 @@
                   <div class="panel-body">
                     <h3 class="no-top-margin"><%= project.name %></h3>
                     <h4><%= project.language %></h4>
-                    <p><em><%= link_to 'View on Github', project.link %></em></p>
+                    <p><em><%= link_to 'View on GitHub', project.link %></em></p>
                     <p><%= simple_format project.description.html_safe %></p>
                     <% if project.image.present? %><%= image_tag "personal/#{project.image}", class:'project_image' %><% end %>
                   </div>
