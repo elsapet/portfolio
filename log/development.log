@@ -33594,3 +33594,80 @@ Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:55:57 
 
 
 Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.5ms)
+  [1m[35mProject Load (0.4ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (4.6ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 16:01:03 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-05 16:01:04 +0200
