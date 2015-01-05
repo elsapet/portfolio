@@ -29693,3 +29693,3904 @@ Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-17 18:24:14 
 
 
 Started GET "/assets/circles.png" for 127.0.0.1 at 2014-09-17 18:24:15 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 07:55:35 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (13.9ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (56.3ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (15.2ms)
+  Rendered home/index.html.erb within layouts/application (101.4ms)
+Completed 200 OK in 413ms (Views: 370.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.4ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.0ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 07:55:36 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2014-09-20 07:55:37 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.5ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.3ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.2ms)
+  Rendered home/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2014-09-20 07:56:54 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (6.2ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (3.5ms)
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 34ms (Views: 31.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2014-09-20 07:57:39 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.4ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.0ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2014-09-20 07:57:57 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.8ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2014-09-20 07:59:26 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.9ms)
+  [1m[35mProject Load (0.4ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.8ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2014-09-20 08:00:02 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 08:01:58 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.3ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.5ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2014-09-20 08:01:59 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.3ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (5.9ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 08:02:57 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2014-09-20 08:02:58 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.1ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.8ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 08:06:34 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2014-09-20 08:06:35 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (5.1ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2014-09-20 08:07:27 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.0ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/assets/circles3.png" for 127.0.0.1 at 2014-09-20 08:11:10 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 08:41:01 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (16.0ms)
+  [1m[35mProject Load (262.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (267.4ms)
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (3.2ms)
+  Rendered home/index.html.erb within layouts/application (357.4ms)
+Completed 200 OK in 668ms (Views: 339.2ms | ActiveRecord: 262.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/assets/circles3.png" for 127.0.0.1 at 2014-09-20 08:41:03 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.1ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (5.8ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.8ms)
+  Rendered home/index.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2014-09-20 09:31:10 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.1ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (6.3ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (3.7ms)
+  Rendered home/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/assets/circles3.png" for 127.0.0.1 at 2014-09-20 09:32:15 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-20 09:33:41 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.1ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (5.9ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/assets/circles3.png" for 127.0.0.1 at 2014-09-20 09:33:42 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-21 17:19:08 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (9.2ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (78.5ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (15.5ms)
+  Rendered home/index.html.erb within layouts/application (109.1ms)
+Completed 200 OK in 467ms (Views: 415.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-21 17:19:08 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-21 17:19:08 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-09-21 17:19:08 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-09-21 17:19:08 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-21 17:19:08 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/assets/circles3.png" for 127.0.0.1 at 2014-09-21 17:19:09 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 13:32:53 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (10.2ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (56.3ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (15.2ms)
+  Rendered home/index.html.erb within layouts/application (99.7ms)
+Completed 200 OK in 467ms (Views: 415.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/assets/circles3.png" for 127.0.0.1 at 2015-01-05 13:32:54 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.4ms)
+  [1m[35mProject Load (0.4ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.5ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 59ms (Views: 55.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 13:40:48 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.4ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (4.9ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 23ms (Views: 19.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/circles3.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 13:41:03 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.3ms)
+  [1m[35mProject Load (0.7ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.6ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 13:41:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.3ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.4ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (4.6ms)
+  Rendered home/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 13:53:35 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.5ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (6.1ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:00:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.1ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.7ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:00:19 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.4ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (4.8ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 22ms (Views: 18.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.4ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.2ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.9ms)
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:00:24 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.6ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.9ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:02:04 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.4ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.3ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.8ms)
+  Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:05:24 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (4.6ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.2ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:40:27 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.8ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.3ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.5ms)
+  Rendered home/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:40:50 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (3.3ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 58ms (Views: 55.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/circles.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:42:30 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.1ms)
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/circles3.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:47:36 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.4ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (2.4ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:47:44 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.8ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (9.6ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (3.8ms)
+  Rendered home/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 57ms (Views: 54.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/circles2.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:48:57 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (5.8ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:50:07 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (6.4ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.2ms)
+  Rendered home/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 26ms (Views: 22.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:50:37 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:50:38 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:50:38 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:50:38 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:50:38 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:50:38 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.9ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (5.0ms)
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (4.0ms)
+  Rendered home/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:50:48 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:50:49 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:50:49 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:50:49 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:50:49 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:50:49 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:50:49 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.9ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (47.5ms)
+Completed 200 OK in 59ms (Views: 56.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:50:57 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:54:32 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.5ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (6.9ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:54:32 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:54:32 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:54:32 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:54:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/congruent_pentagon.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:54:33 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.9ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (6.5ms)
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (3.4ms)
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 35ms (Views: 32.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/old_moon.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:57:37 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.6ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.7ms)
+  Rendered home/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 14:59:36 +0200
+
+
+Started GET "/assets/old_moon.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 14:59:37 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.1ms)
+  [1m[35mProject Load (0.4ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (4.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.9ms)
+  Rendered home/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/profile1.jpg" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:03:47 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:05:17 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (24.3ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (39.5ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (69.6ms)
+Completed 200 OK in 81ms (Views: 78.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:05:18 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.4ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.5ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.9ms)
+  Rendered home/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:05:58 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.4ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.1ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.0ms)
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:06:57 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (2.4ms)
+  [1m[35mProject Load (0.6ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (7.0ms)
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:08:13 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.6ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (3.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:08:26 +0200
+  [1m[36m (148.1ms)[0m  [1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company" varchar(255), "date" varchar(255), "link" varchar(255), "language" varchar(255), "image" varchar(255), "sequence" integer, "description" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (166.6ms)[0m  CREATE INDEX "index_projects_on_sequence" ON "projects" ("sequence")
+  [1m[36m (175.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (122.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (179.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140514100114')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (24.5ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00], ["description", "This is an exercise in self-referential associations. A course (e.g. Computer Science I) can be a pre-requisite to another course (e.g. Computer Science II)."], ["language", "Ruby on Rails"], ["link", "https://github.com/elsapet/university"], ["name", "Modelling Pre-requisites for School Courses"], ["sequence", 0], ["updated_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00]]
+  [1m[35m (118.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "projects" ("company", "created_at", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00], ["description", "Meinsweeper is an original version of a traditional minesweeper-style game such as Minesweeper or KMines, written using Java Swing.<br/><br/>The aim of Meinsweeper is to locate a number of coals that are hidden on the grid, and mark their location with a chimney brush. Increasing the difficulty level increases the size of the grid and the number of coals hidden."], ["image", "meinsweeper.png"], ["language", "Java"], ["link", "https://github.com/elsapet/meinsweeper"], ["name", "Meinsweeper"], ["sequence", 10], ["updated_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00]]
+  [1m[36m (118.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00], ["description", "In 1952, Christopher Strachey wrote a programme for Mark One \"Baby\", the computer housed at Manchester University. This programme provided a database of verbs and nouns from which \"Baby\" would construct love poems.<br/><br/>My version sends its user a simplistic love sentence, many of which are inspired by Shakespearean sonnets: <em>The forward violet thus did I chide : Sweet thief lift the very urn of my yearning</em>"], ["language", "Ruby"], ["link", "https://github.com/elsapet/simple_muc"], ["name", "Homage to the Manchester University Computer"], ["sequence", 20], ["updated_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00]]
+  [1m[35m (152.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00], ["description", "A simple Python script to drill vocabulary from a given .csv file of words.<br/>(Planned expansions include catering for special characters.)"], ["language", "Python"], ["link", "https://github.com/elsapet/language_drill"], ["name", "Language vocabulary drill"], ["sequence", 30], ["updated_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00]]
+  [1m[36m (130.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Big5 Boutique"], ["created_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00], ["date", "December 2013 to present"], ["description", "Big5 Boutique is an online safari booking website.<br/><br/>For the user login system, I integrated with Facebook, LinkedIn, and Google+ as well as Devise. I also built a custom messaging interface so that users can send, receive, and access messages from safari lodges through the site.<br/><br/>I also designed and implemented the online availability system, integrating with various booking and hospitality APIs. Here I abstracted the differing APIs to provide a consistent availability interface for each safari lodge. We use the RSpec suite for testing."], ["image", "big5boutique.png"], ["language", "Ruby on Rails, JavaScript (including Ember.js)"], ["link", "http://www.big5boutique.com/"], ["name", "Big5 Boutique"], ["sequence", 0], ["updated_at", Mon, 05 Jan 2015 13:34:59 UTC +00:00]]
+  [1m[35m (129.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Lab19 Digital"], ["created_at", Mon, 05 Jan 2015 13:35:00 UTC +00:00], ["date", "October 2013 to November 2013"], ["description", "Contract Vault is a custom web application for managing contracts between agencies and performers. Here I did general development in nodejs (with Express) and Emberjs.<br/><br/>I implemented user login and password reset functionality as well as error handling on both back- and front-end. I also worked on integration with various invoicing APIs. Tests were implemented using supertest."], ["image", "contractvault.png"], ["language", "JavaScript (node.js with Express, Ember.js), MongoDB"], ["link", ""], ["name", "Contract Vault"], ["sequence", 10], ["updated_at", Mon, 05 Jan 2015 13:35:00 UTC +00:00]]
+  [1m[36m (130.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Lab19 Digital"], ["created_at", Mon, 05 Jan 2015 13:35:00 UTC +00:00], ["date", "September 2013"], ["description", "Word on the Wire is a web application that compiled search results from blekko, YouTube, Twitter and Faroo.<br/>I developed the Rails back-end for the site. I integrated with Twitter and YouTube APIs to retrieve search results and used JavaScript (AJAX) to display the results."], ["image", "wordonwire.png"], ["language", "Ruby on Rails, JavaScript"], ["link", "http://wordonthewire.herokuapp.com/"], ["name", "Word on the Wire"], ["sequence", 20], ["updated_at", Mon, 05 Jan 2015 13:35:00 UTC +00:00]]
+  [1m[35m (118.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Refresh Creative Media"], ["created_at", Mon, 05 Jan 2015 13:35:00 UTC +00:00], ["date", "July 2013 to August 2013"], ["description", "NDorfin is an adventure news site. Here I developed a custom WordPress back-end for the existing NDorfin site, including custom pagination and search functionality for custom post-types such as Events.<br/><br/>I provided functionality for multiple users, including a front-end login system where users can upload news articles and adventure events.<br/>The front-end re-design I implemented in HTML and CSS and completed the site upgrade with a custom PHP script to migrate data from the existing NDofrin database to the new WordPress database."], ["image", "ndorfin.png"], ["language", "WordPress (PHP, SQL), JavaScript (jQuery), HTML, CSS"], ["link", "http://www.ndorfin.co.za/"], ["name", "NDorfin (site re-design)"], ["sequence", 30], ["updated_at", Mon, 05 Jan 2015 13:35:00 UTC +00:00]]
+  [1m[36m (152.2ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00], ["description", "This is an exercise in self-referential associations. A course (e.g. Computer Science I) can be a pre-requisite to another course (e.g. Computer Science II)."], ["language", "Ruby on Rails"], ["link", "https://github.com/elsapet/university"], ["name", "Modelling Pre-requisites for School Courses"], ["sequence", 0], ["updated_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00]]
+  [1m[35m (178.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "projects" ("company", "created_at", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00], ["description", "Meinsweeper is an original version of a traditional minesweeper-style game such as Minesweeper or KMines, written using Java Swing.<br/><br/>The aim of Meinsweeper is to locate a number of coals that are hidden on the grid, and mark their location with a chimney brush. Increasing the difficulty level increases the size of the grid and the number of coals hidden."], ["image", "meinsweeper.png"], ["language", "Java"], ["link", "https://github.com/elsapet/meinsweeper"], ["name", "Meinsweeper"], ["sequence", 10], ["updated_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00]]
+  [1m[36m (140.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00], ["description", "In 1952, Christopher Strachey wrote a programme for Mark One \"Baby\", the computer housed at Manchester University. This programme provided a database of verbs and nouns from which \"Baby\" would construct love poems.<br/><br/>My version sends its user a simplistic love sentence, many of which are inspired by Shakespearean sonnets: <em>The forward violet thus did I chide : Sweet thief lift the very urn of my yearning</em>"], ["language", "Ruby"], ["link", "https://github.com/elsapet/simple_muc"], ["name", "Homage to the Manchester University Computer"], ["sequence", 20], ["updated_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00]]
+  [1m[35m (119.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00], ["description", "A simple Python script to drill vocabulary from a given .csv file of words.<br/>(Planned expansions include catering for special characters.)"], ["language", "Python"], ["link", "https://github.com/elsapet/language_drill"], ["name", "Language vocabulary drill"], ["sequence", 30], ["updated_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00]]
+  [1m[36m (120.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Big5 Boutique"], ["created_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00], ["date", "December 2013 to present"], ["description", "Big5 Boutique is an online safari booking website.<br/><br/>For the user login system, I integrated with Facebook, LinkedIn, and Google+ as well as Devise. I also built a custom messaging interface so that users can send, receive, and access messages from safari lodges through the site.<br/><br/>I also designed and implemented the online availability system, integrating with various booking and hospitality APIs. Here I abstracted the differing APIs to provide a consistent availability interface for each safari lodge. We use the RSpec suite for testing."], ["image", "big5boutique.png"], ["language", "Ruby on Rails, JavaScript (including Ember.js)"], ["link", "http://www.big5boutique.com/"], ["name", "Big5 Boutique"], ["sequence", 0], ["updated_at", Mon, 05 Jan 2015 13:35:07 UTC +00:00]]
+  [1m[35m (121.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Lab19 Digital"], ["created_at", Mon, 05 Jan 2015 13:35:08 UTC +00:00], ["date", "October 2013 to November 2013"], ["description", "Contract Vault is a custom web application for managing contracts between agencies and performers. Here I did general development in nodejs (with Express) and Emberjs.<br/><br/>I implemented user login and password reset functionality as well as error handling on both back- and front-end. I also worked on integration with various invoicing APIs. Tests were implemented using supertest."], ["image", "contractvault.png"], ["language", "JavaScript (node.js with Express, Ember.js), MongoDB"], ["link", ""], ["name", "Contract Vault"], ["sequence", 10], ["updated_at", Mon, 05 Jan 2015 13:35:08 UTC +00:00]]
+  [1m[36m (110.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Lab19 Digital"], ["created_at", Mon, 05 Jan 2015 13:35:08 UTC +00:00], ["date", "September 2013"], ["description", "Word on the Wire is a web application that compiled search results from blekko, YouTube, Twitter and Faroo.<br/>I developed the Rails back-end for the site. I integrated with Twitter and YouTube APIs to retrieve search results and used JavaScript (AJAX) to display the results."], ["image", "wordonwire.png"], ["language", "Ruby on Rails, JavaScript"], ["link", "http://wordonthewire.herokuapp.com/"], ["name", "Word on the Wire"], ["sequence", 20], ["updated_at", Mon, 05 Jan 2015 13:35:08 UTC +00:00]]
+  [1m[35m (130.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Refresh Creative Media"], ["created_at", Mon, 05 Jan 2015 13:35:08 UTC +00:00], ["date", "July 2013 to August 2013"], ["description", "NDorfin is an adventure news site. Here I developed a custom WordPress back-end for the existing NDorfin site, including custom pagination and search functionality for custom post-types such as Events.<br/><br/>I provided functionality for multiple users, including a front-end login system where users can upload news articles and adventure events.<br/>The front-end re-design I implemented in HTML and CSS and completed the site upgrade with a custom PHP script to migrate data from the existing NDofrin database to the new WordPress database."], ["image", "ndorfin.png"], ["language", "WordPress (PHP, SQL), JavaScript (jQuery), HTML, CSS"], ["link", "http://www.ndorfin.co.za/"], ["name", "NDorfin (site re-design)"], ["sequence", 30], ["updated_at", Mon, 05 Jan 2015 13:35:08 UTC +00:00]]
+  [1m[36m (144.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:36:44 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (2.9ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (29.1ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (5.4ms)
+  Rendered home/index.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 145ms (Views: 118.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:36:44 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:36:45 +0200
+  [1m[36m (222.2ms)[0m  [1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "company" varchar(255), "date" varchar(255), "link" varchar(255), "language" varchar(255), "image" varchar(255), "sequence" integer, "description" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (132.9ms)[0m  CREATE INDEX "index_projects_on_sequence" ON "projects" ("sequence")
+  [1m[36m (130.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (155.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (144.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20140514100114')
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.2ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:39:53 UTC +00:00], ["description", "This was an exercise in modelling self-referential associations in Rails. A course (e.g. Computer Science I) can be a pre-requisite to another course (e.g. Computer Science II). I used a join table for this."], ["language", "Ruby on Rails"], ["link", "https://github.com/elsapet/university"], ["name", "Modelling pre-requisites for school courses"], ["sequence", 0], ["updated_at", Mon, 05 Jan 2015 13:39:53 UTC +00:00]]
+  [1m[35m (126.3ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "projects" ("company", "created_at", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:39:53 UTC +00:00], ["description", "Meinsweeper is an original version of a traditional minesweeper-style game such as Minesweeper or KMines, written using Java Swing.<br/><br/>The aim of Meinsweeper is to locate a number of coals that are hidden on the grid, and mark their location with a chimney brush. Increasing the difficulty level increases the size of the grid and the number of coals hidden."], ["image", "meinsweeper.png"], ["language", "Java"], ["link", "https://github.com/elsapet/meinsweeper"], ["name", "Meinsweeper"], ["sequence", 10], ["updated_at", Mon, 05 Jan 2015 13:39:53 UTC +00:00]]
+  [1m[36m (142.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:39:53 UTC +00:00], ["description", "In 1952, Christopher Strachey wrote a programme for Mark One \"Baby\", the computer housed at Manchester University. This programme provided a database of verbs and nouns from which \"Baby\" would construct love poems.<br/><br/>My version sends its user a simplistic love sentence, many of which are inspired by Shakespearean sonnets: <em>The forward violet thus did I chide : Sweet thief lift the very urn of my yearning</em>"], ["language", "Ruby"], ["link", "https://github.com/elsapet/simple_muc"], ["name", "Homage to the Manchester University Computer"], ["sequence", 20], ["updated_at", Mon, 05 Jan 2015 13:39:53 UTC +00:00]]
+  [1m[35m (152.3ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:39:53 UTC +00:00], ["description", "A simple Python script to drill vocabulary from a given .csv file of words.<br/>(Planned expansions include catering for special characters.)"], ["language", "Python"], ["link", "https://github.com/elsapet/language_drill"], ["name", "Language vocabulary drill"], ["sequence", 30], ["updated_at", Mon, 05 Jan 2015 13:39:53 UTC +00:00]]
+  [1m[36m (141.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Big5 Boutique"], ["created_at", Mon, 05 Jan 2015 13:39:54 UTC +00:00], ["date", "December 2013 to present"], ["description", "Big5 Boutique is an online safari booking website.<br/><br/>For the user login system, I integrated with Facebook, LinkedIn, and Google+ as well as Devise. I also built a custom messaging interface so that users can send, receive, and access messages from safari lodges through the site.<br/><br/>I also designed and implemented the online availability system, integrating with various booking and hospitality APIs. Here I abstracted the differing APIs to provide a consistent availability interface for each safari lodge. We use the RSpec suite for testing."], ["image", "big5boutique.png"], ["language", "Ruby on Rails, JavaScript (including Ember.js)"], ["link", "http://www.big5boutique.com/"], ["name", "Big5 Boutique"], ["sequence", 0], ["updated_at", Mon, 05 Jan 2015 13:39:54 UTC +00:00]]
+  [1m[35m (129.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Lab19 Digital"], ["created_at", Mon, 05 Jan 2015 13:39:54 UTC +00:00], ["date", "October 2013 to November 2013"], ["description", "Contract Vault is a custom web application for managing contracts between agencies and performers. Here I did general development in nodejs (with Express) and Emberjs.<br/><br/>I implemented user login and password reset functionality as well as error handling on both back- and front-end. I also worked on integration with various invoicing APIs. Tests were implemented using supertest."], ["image", "contractvault.png"], ["language", "JavaScript (node.js with Express, Ember.js), MongoDB"], ["link", ""], ["name", "Contract Vault"], ["sequence", 10], ["updated_at", Mon, 05 Jan 2015 13:39:54 UTC +00:00]]
+  [1m[36m (118.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Lab19 Digital"], ["created_at", Mon, 05 Jan 2015 13:39:54 UTC +00:00], ["date", "September 2013"], ["description", "Word on the Wire is a web application that compiled search results from blekko, YouTube, Twitter and Faroo.<br/>I developed the Rails back-end for the site. I integrated with Twitter and YouTube APIs to retrieve search results and used JavaScript (AJAX) to display the results."], ["image", "wordonwire.png"], ["language", "Ruby on Rails, JavaScript"], ["link", "http://wordonthewire.herokuapp.com/"], ["name", "Word on the Wire"], ["sequence", 20], ["updated_at", Mon, 05 Jan 2015 13:39:54 UTC +00:00]]
+  [1m[35m (141.0ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Refresh Creative Media"], ["created_at", Mon, 05 Jan 2015 13:39:54 UTC +00:00], ["date", "July 2013 to August 2013"], ["description", "NDorfin is an adventure news site. Here I developed a custom WordPress back-end for the existing NDorfin site, including custom pagination and search functionality for custom post-types such as Events.<br/><br/>I provided functionality for multiple users, including a front-end login system where users can upload news articles and adventure events.<br/>The front-end re-design I implemented in HTML and CSS and completed the site upgrade with a custom PHP script to migrate data from the existing NDofrin database to the new WordPress database."], ["image", "ndorfin.png"], ["language", "WordPress (PHP, SQL), JavaScript (jQuery), HTML, CSS"], ["link", "http://www.ndorfin.co.za/"], ["name", "NDorfin (site re-design)"], ["sequence", 30], ["updated_at", Mon, 05 Jan 2015 13:39:54 UTC +00:00]]
+  [1m[36m (129.9ms)[0m  [1mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.6ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:39:57 UTC +00:00], ["description", "This was an exercise in modelling self-referential associations in Rails. A course (e.g. Computer Science I) can be a pre-requisite to another course (e.g. Computer Science II). I used a join table for this."], ["language", "Ruby on Rails"], ["link", "https://github.com/elsapet/university"], ["name", "Modelling pre-requisites for school courses"], ["sequence", 0], ["updated_at", Mon, 05 Jan 2015 13:39:57 UTC +00:00]]
+  [1m[35m (251.0ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "projects" ("company", "created_at", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:39:57 UTC +00:00], ["description", "Meinsweeper is an original version of a traditional minesweeper-style game such as Minesweeper or KMines, written using Java Swing.<br/><br/>The aim of Meinsweeper is to locate a number of coals that are hidden on the grid, and mark their location with a chimney brush. Increasing the difficulty level increases the size of the grid and the number of coals hidden."], ["image", "meinsweeper.png"], ["language", "Java"], ["link", "https://github.com/elsapet/meinsweeper"], ["name", "Meinsweeper"], ["sequence", 10], ["updated_at", Mon, 05 Jan 2015 13:39:57 UTC +00:00]]
+  [1m[36m (119.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:39:57 UTC +00:00], ["description", "In 1952, Christopher Strachey wrote a programme for Mark One \"Baby\", the computer housed at Manchester University. This programme provided a database of verbs and nouns from which \"Baby\" would construct love poems.<br/><br/>My version sends its user a simplistic love sentence, many of which are inspired by Shakespearean sonnets: <em>The forward violet thus did I chide : Sweet thief lift the very urn of my yearning</em>"], ["language", "Ruby"], ["link", "https://github.com/elsapet/simple_muc"], ["name", "Homage to the Manchester University Computer"], ["sequence", 20], ["updated_at", Mon, 05 Jan 2015 13:39:57 UTC +00:00]]
+  [1m[35m (129.2ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "projects" ("company", "created_at", "description", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Personal"], ["created_at", Mon, 05 Jan 2015 13:39:57 UTC +00:00], ["description", "A simple Python script to drill vocabulary from a given .csv file of words.<br/>(Planned expansions include catering for special characters.)"], ["language", "Python"], ["link", "https://github.com/elsapet/language_drill"], ["name", "Language vocabulary drill"], ["sequence", 30], ["updated_at", Mon, 05 Jan 2015 13:39:57 UTC +00:00]]
+  [1m[36m (141.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Big5 Boutique"], ["created_at", Mon, 05 Jan 2015 13:39:58 UTC +00:00], ["date", "December 2013 to present"], ["description", "Big5 Boutique is an online safari booking website.<br/><br/>For the user login system, I integrated with Facebook, LinkedIn, and Google+ as well as Devise. I also built a custom messaging interface so that users can send, receive, and access messages from safari lodges through the site.<br/><br/>I also designed and implemented the online availability system, integrating with various booking and hospitality APIs. Here I abstracted the differing APIs to provide a consistent availability interface for each safari lodge. We use the RSpec suite for testing."], ["image", "big5boutique.png"], ["language", "Ruby on Rails, JavaScript (including Ember.js)"], ["link", "http://www.big5boutique.com/"], ["name", "Big5 Boutique"], ["sequence", 0], ["updated_at", Mon, 05 Jan 2015 13:39:58 UTC +00:00]]
+  [1m[35m (152.1ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Lab19 Digital"], ["created_at", Mon, 05 Jan 2015 13:39:58 UTC +00:00], ["date", "October 2013 to November 2013"], ["description", "Contract Vault is a custom web application for managing contracts between agencies and performers. Here I did general development in nodejs (with Express) and Emberjs.<br/><br/>I implemented user login and password reset functionality as well as error handling on both back- and front-end. I also worked on integration with various invoicing APIs. Tests were implemented using supertest."], ["image", "contractvault.png"], ["language", "JavaScript (node.js with Express, Ember.js), MongoDB"], ["link", ""], ["name", "Contract Vault"], ["sequence", 10], ["updated_at", Mon, 05 Jan 2015 13:39:58 UTC +00:00]]
+  [1m[36m (129.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["company", "Lab19 Digital"], ["created_at", Mon, 05 Jan 2015 13:39:58 UTC +00:00], ["date", "September 2013"], ["description", "Word on the Wire is a web application that compiled search results from blekko, YouTube, Twitter and Faroo.<br/>I developed the Rails back-end for the site. I integrated with Twitter and YouTube APIs to retrieve search results and used JavaScript (AJAX) to display the results."], ["image", "wordonwire.png"], ["language", "Ruby on Rails, JavaScript"], ["link", "http://wordonthewire.herokuapp.com/"], ["name", "Word on the Wire"], ["sequence", 20], ["updated_at", Mon, 05 Jan 2015 13:39:58 UTC +00:00]]
+  [1m[35m (197.7ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "projects" ("company", "created_at", "date", "description", "image", "language", "link", "name", "sequence", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["company", "Refresh Creative Media"], ["created_at", Mon, 05 Jan 2015 13:39:58 UTC +00:00], ["date", "July 2013 to August 2013"], ["description", "NDorfin is an adventure news site. Here I developed a custom WordPress back-end for the existing NDorfin site, including custom pagination and search functionality for custom post-types such as Events.<br/><br/>I provided functionality for multiple users, including a front-end login system where users can upload news articles and adventure events.<br/>The front-end re-design I implemented in HTML and CSS and completed the site upgrade with a custom PHP script to migrate data from the existing NDofrin database to the new WordPress database."], ["image", "ndorfin.png"], ["language", "WordPress (PHP, SQL), JavaScript (jQuery), HTML, CSS"], ["link", "http://www.ndorfin.co.za/"], ["name", "NDorfin (site re-design)"], ["sequence", 30], ["updated_at", Mon, 05 Jan 2015 13:39:58 UTC +00:00]]
+  [1m[36m (129.7ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:40:12 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.5ms)
+  [1m[35mProject Load (0.7ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (10.3ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:40:13 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.2ms)
+  [1m[35mProject Load (0.7ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (9.5ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.7ms)
+  Rendered home/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:19 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (1.4ms)
+  [1m[35mProject Load (1.0ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (5.4ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (2.4ms)
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (0.5ms)
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (4.4ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (3.5ms)
+  Rendered home/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:40:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_about.html.erb (2.4ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE ("projects"."company" != 'Personal')
+  Rendered home/_industry.html.erb (21.4ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."company" = 'Personal'[0m
+  Rendered home/_personal.html.erb (4.9ms)
+  Rendered home/index.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 116ms (Views: 96.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/strange_bullseyes.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/profile.jpg" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/social/github.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/social/wordpress.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/social/twitter.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/social/linkedin.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/industry/big5boutique.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/industry/contractvault.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/industry/wordonwire.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/industry/ndorfin.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200
+
+
+Started GET "/assets/personal/meinsweeper.png" for 127.0.0.1 at 2015-01-05 15:55:57 +0200

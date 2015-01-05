@@ -1,6 +1,15 @@
 Project.create({
+    name:'Modelling pre-requisites for school courses',
+    sequence:0,
+    company:'Personal',
+    link:'https://github.com/elsapet/university',
+    language:'Ruby on Rails',
+    description:'This was an exercise in modelling self-referential associations in Rails. A course (e.g. Computer Science I) can be a pre-requisite to another course (e.g. Computer Science II). I used a join table for this.'
+  })
+
+Project.create({
   name:'Meinsweeper',
-  sequence:0,
+  sequence:10,
   company:'Personal',
   link:'https://github.com/elsapet/meinsweeper',
   language:'Java',
@@ -10,7 +19,7 @@ Project.create({
 
 Project.create({
    name:'Homage to the Manchester University Computer',
-   sequence:1,
+   sequence:20,
    company:'Personal',
    link:'https://github.com/elsapet/simple_muc',
    language:'Ruby',
@@ -19,7 +28,7 @@ Project.create({
 
 Project.create({
    name:'Language vocabulary drill',
-   sequence:2,
+   sequence:30,
    company:'Personal',
    link:'https://github.com/elsapet/language_drill',
    language:'Python',
@@ -40,7 +49,7 @@ Project.create({
 Project.create({
    name:'Contract Vault',
    company:'Lab19 Digital',
-   sequence: 1,
+   sequence: 10,
    date: 'October 2013 to November 2013',
    link:'',
    language:'JavaScript (node.js with Express, Ember.js), MongoDB',
@@ -51,18 +60,18 @@ Project.create({
 Project.create({
    name:'Word on the Wire',
    company:'Lab19 Digital',
-   sequence: 2,
+   sequence: 20,
    date: 'September 2013',
    link:'http://wordonthewire.herokuapp.com/',
    language:'Ruby on Rails, JavaScript',
-   description:'Word on the Wire is a web application that compiled search results from blekko, YouTube, Twitter and Faroo.<br/>I developed the Rails back-end for site. I integrated with Twitter and YouTube APIs to retrieve search results and used JavaScript (AJAX) to display the results.',
+   description:'Word on the Wire is a web application that compiled search results from blekko, YouTube, Twitter and Faroo.<br/>I developed the Rails back-end for the site. I integrated with Twitter and YouTube APIs to retrieve search results and used JavaScript (AJAX) to display the results.',
    image:'wordonwire.png'
 })
 
 Project.create({
    name:'NDorfin (site re-design)',
    company:'Refresh Creative Media',
-   sequence: 3,
+   sequence: 30,
    date: 'July 2013 to August 2013',
    link:'http://www.ndorfin.co.za/',
    language:'WordPress (PHP, SQL), JavaScript (jQuery), HTML, CSS',
