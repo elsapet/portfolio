@@ -1,0 +1,50 @@
+.container
+  .row
+    .col-sm-8.col-sm-offset-2.col-xs-12
+      .panel.panel-default
+        .panel-heading
+          %h3.custom-title
+            elizabeth braae
+            %small
+              rails developer
+        .panel-body
+          .row
+            .col-lg-8.col-md-7
+              %p.lead
+                I am a web developer from Cape Town, South Africa
+              %p.profile.visible-sm.visible-xs
+                = image_tag 'profile.jpg'
+              %p
+                I have experience in Ruby on Rails and JavaScript, with an interest in functional programming. I am keen to expand my skills and to learn new technologies. 
+              %p
+                This is my portfolio website. 
+                My r&eacute;sum&eacute; can be downloaded 
+                = link_to 'here (.pdf)', '/download_pdf'
+            .profile.col-lg-4.col-md-5.hidden-sm.hidden-xs
+              = image_tag 'profile.jpg'
+          .row
+            .col-sm-12
+              %p
+                %h4 
+                  Where do I work?
+                This past year I have worked at a Berlin-based Rails and JavaScript agency called Bitcrowd. I built websites and web applications to client specifications, working mostly on the Rails side.
+              %p
+                %h4
+                  Which is my favourite programming language?
+                I don't have a favourite language or platform, for two reasons: (i.) I believe the task itself should determine the tool and (ii.) I like to explore new technologies. That said, Ruby comes very close! 
+              %p
+                %h4
+                  What is my background?
+                My background is in academic philosophy. I fell into programming during my Master's and haven't looked back. I love the way that programming combines all of my favourite things: logical reasoning, analytical problem-solving, and continuous learning.
+              %p
+                %h4
+                  Why do I code? 
+                To build great things for humans! 
+                I love to share my passion for code with others, which is why I have tutored at 
+                = link_to 'Umonya', 'https://www.umonya.org/'
+                and
+                = link_to 'Railsbridge Cape Town.', 'https://railsbridgecapetown.org/'
+                While in Germany, I was part of a Clojure learning group. We met weekly to discuss functional programming and to work through problem sets. I gave a talk  
+                = link_to '(see slides)', 'https://speakerdeck.com/elsapet/a-lesson-in-learning'
+                at the November 2015 Clojure Berlin Dojo about my experiences.
+                

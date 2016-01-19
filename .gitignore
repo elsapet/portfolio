@@ -1,5 +1,8 @@
 *.log
 *.sql
 *.sqlite3
+*.DS_Store
 
 .idea/*
+tmp/
+log/

@@ -1,0 +1,36 @@
+.container
+  .row
+    .col-sm-8.col-sm-offset-2.col-xs-12
+      .panel.panel-default
+        .panel-heading
+          %h3.custom-title
+            industry projects
+            %small
+              web sites & applications I've worked on
+        .panel-body
+          - @industry_projects.each do |project|
+            .row.project
+              - if project.link.present?
+                = link_to project.link do
+                
+                  .col-sm-12.col-xs-12
+                    .panel-body
+                      %h3.no-top-margin
+                        = project.name
+                      %h4= project.language
+                      %p
+                        %em= project.date
+                      %p= simple_format project.description.html_safe
+                      - if project.image.present?
+                        = image_tag "industry/#{project.image}", class:'project_image'
+              - else
+                .col-sm-12.col-xs-12
+                  .panel-body
+                    %h3.no-top-margin
+                      = project.name
+                    %h4= project.language
+                    %p
+                      %em= project.date
+                    %p= simple_format project.description.html_safe
+                    - if project.image.present?
+                      = image_tag "industry/#{project.image}", class:'project_image'
