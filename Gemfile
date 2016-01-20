@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.0.2'
 gem 'rake', '10.3.1'
 gem 'jquery-rails'
+gem 'uglifier'
 gem 'sass-rails', '~> 4.0.0'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 
